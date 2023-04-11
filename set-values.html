@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set Values</title>
+
+</head>
+<body>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Libero veniam illo, iure, sit pariatur quia natus eaque dolorem, dolor sapiente repellat ea. 
+        Distinctio, architecto consectetur aliquid dolorem culpa cupiditate neque?
+    </p>
+
+    <h1 id="h1">Heading 1</h1>
+
+    <a href="test.html" id="a1"> Link</a>
+
+
+    <img src="a.jpg" alt="No Image" height="100px" width="100px" id="i1">
+
+    <input type="text" id="inp" class="test" value="Hello">
+
+    <script>
+
+       /*  document.getElementById('para')
+        document.getElementById('h1')
+        document.getElementById('i1')
+        document.getElementById('inp') */
+
+        alert(document.getElementById('para').innetHTML);
+        alert(document.getElementById('h1').innerText);
+        alert(document.getElementById('inp').value);
+        alert(document.getElementById('i1').src)
+        
+        document.getElementById('para').innerHTML ="This is Para";
+    document.getElementById('h1').innerText = "CHange h1";
+    document.getElementById('a1').innerHTML ="Anchor Tag" ;
+    document.getElementById('inp').value ="test123"
+    
+    </script>
+    
+</body>
+</html>
